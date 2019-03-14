@@ -1,0 +1,23 @@
+﻿@model StudentDepartment.Models.CreateStuAndDep
+<form asp-controller="Register" asp-action="SetDataInDataBase" method="post">
+
+
+	<div class="container">
+		<div class="form-group">
+			<label>StuName:</label>
+			<input class="form-control" name="StuName"  id="StuName" placeholder="Enter Student Name" />
+		</div>
+
+		<div class="form-group">
+			<label>DepName:</label>
+			<input class="form-control" name="DepName" id="DepName" placeholder="Enter Department Name" />
+		</div>
+
+		<div class="button">
+			<button>Create</button>
+		</div>
+
+	</div>
+</form>
+
+
